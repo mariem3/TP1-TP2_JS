@@ -1,0 +1,49 @@
+p {
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.container1{
+    padding: 100px;
+}
+
+.container{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+#carrousel{
+    position:relative;
+    height:200px;
+    width:700px;
+    margin:auto;
+}
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.carousel .item {
+    height: 500px;
+  }
+
+.carousel-height{
+      height: 300px;
+}
+.map-container-2{
+    overflow:hidden;
+    padding:0;
+    position:relative;
+    height: 500px;;
+    }
+.map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    font-size: 0.85em;
+    
+    }
+
